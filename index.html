@@ -1,0 +1,52 @@
+index.html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Portrait Art</title>
+    <style>
+        /* CSS Magic */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000; 
+            overflow: hidden;
+        }
+
+        .portrait-container {
+            width: 100vw;
+            height: 100vh;
+        
+            background-image: url('file:///C:/Users/Rabby/Downloads/3.jpeg'); 
+            background-size: cover;
+            background-position: center;
+          background-repeat: no-repeat;
+        
+            -webkit-background-clip: text;
+            background-clip: text;
+            
+            color: transparent;
+            
+            font-family: sans-serif;
+            font-weight: 900;
+            font-size: 9px; 
+            line-height: 8px;
+            text-align: justify;
+            letter-spacing: -1px;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="portrait-container">
+        <script>
+            let lyrics = "I love you in my last breath is not just a sentence ,it is a promise written with the soul. It means that even when words fade, when strength leaves my body, and when time finally asks me to let go, my love for you will remainl, from the first moment my heart learned your name, it chose you again and again- through every joy , every fear, every silent prayer. You became the place where my heart rests, the calm inside my chaos, the reason love feels gentle and safe . I dont love you in moments of happiness. I love you in struggles in  distance , in quiet night when the world feels heavy .My love ffor you is not measured by time but by depth. It grows in patience , breathes in loyality and live in every unspoken feeling between us . Even when my voice can no longer call your name , my heart will still recognoze you .  If my life were a candle , my final flicker of light would whisper your name . Because loving you is not something i do Its is who I am. And when my last breath leaves me , it will carry only one truth with it : I loved you , completely, endlessly, until the every end . I LOVE YOU IN MY LAST BREATH.. ";
+            
+            // Ei loop-ti lyrics-ke 100 bar repeat korbe jate screen bhore jay
+            document.write(lyrics.repeat(120));
+        </script>
+    </div>
+
+</body>
+</html>
